@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42333518-0ea0-48bd-b4eb-deb298d072b1" name="Changes" comment="Last updates">
-      <change afterPath="$PROJECT_DIR$/JenkinsTest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/Driver.java" afterDir="false" />
+    <list default="true" id="42333518-0ea0-48bd-b4eb-deb298d072b1" name="Changes" comment="Jenkins Test">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/runners/CukesRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +157,7 @@
       <workItem from="1679149563096" duration="74000" />
       <workItem from="1679149683936" duration="25219000" />
       <workItem from="1679248069471" duration="11000" />
-      <workItem from="1679681391004" duration="1523000" />
+      <workItem from="1679681391004" duration="1855000" />
     </task>
     <task id="LOCAL-00001" summary="Last updates">
       <created>1679177627156</created>
@@ -168,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679177627156</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Jenkins Test">
+      <created>1679694155764</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679694155764</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +181,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Last updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Last updates" />
+    <MESSAGE value="Jenkins Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jenkins Test" />
   </component>
 </project>

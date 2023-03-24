@@ -8,11 +8,14 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {
-                //"pretty",
-                "html:target/cucumber-report.html",
-                "rerun:target/rerun.txt",
-                "me.jvt.cucumber.report.PrettyReports:target/cucumber",
-                "json:target/cucumber.json"
+                //"html:target/cucumber-report.html",
+                //"rerun:target/rerun.txt",
+               // "me.jvt.cucumber.report.PrettyReports:target/cucumber",
+                //"json:target/cucumber.json"
+                "json:target/cucumber.json", //this one to connect with jira
+                "html:target/cucumber-reports.html",
+                "rerun:target/rerun.txt"
+
         },
         features = "src/test/resources/features",
         glue = "com/cydeo/step_definitions",
